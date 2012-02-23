@@ -1,0 +1,249 @@
+/* folha de estilos padrão */
+body {
+  background-color: #79725a;
+  margin: 0px;
+  font-family: "Trebuched MS", Arial, Verdana;
+  font-size: 12px;
+}
+img {
+  border: none;
+}
+#topo {
+  width: 100%;
+  height: 80px;
+  background-color: #5e5538;
+  background-image: url('../../img/menu_sombra_topo.png');
+  background-repeat: repeat-x;
+  background-position: 0px 69px;
+      float: none;
+  text-shadow: 1px 1px 2px #000;
+}
+#topo #logo {
+  width: 75px;
+  height: 47px;
+  padding-left: 40px;
+  padding-top: 20px;
+  float: left;
+}
+#topo #loginbox {
+  width: 300px;
+  height: 47px;
+  padding-right: 40px;
+  padding-top: 20px;
+  color: #fff;
+  float: right;
+}
+#topo #loginbox label {
+    font-size: 9px;
+}
+#topo #loginbox input {
+    width: 95%;
+    font-size: 10px;
+    border: solid 1px #aaa;
+    padding: 4px;
+}
+#topo #loginbox #enviar {
+    width: 40px;
+    padding: 3px;
+}
+#topo #loginbox a {
+  color: #fff;
+  font-weight: bold;
+}
+#topo #loginbox a:hover {
+  text-decoration: none;
+}
+#menudd {
+  width: 100%;
+  margin: -20px;
+  margin-top: -60px;
+  z-index: 9999999;
+  position: absolute;
+}
+#menu {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #473f24;
+}
+#menu a {
+  font-weight: bold;
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #000;
+}
+#menu a:hover {
+  background-color: #79725a;
+}
+#menu .submenu {
+  border-top: solid 1px #a19878;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: -15px;
+  color: #000;
+  background-color: #79725a;
+}
+#menu .submenu a:hover {
+  background-color: #473f24;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#menu #menu_1 {
+  background-color: #79725a;
+}
+#conteudo {
+        min-height:400px;
+  background-color: #fff;
+  background-image: url('../../img/menu_sombra_baixo.png');
+  background-repeat: repeat-x;
+  background-position: 0px 0px;
+        padding: 20px;
+        padding-top: 60px;
+  margin-top: 0px;
+}
+#conteudo h3 {
+    width: 420px;
+    padding: 5px;
+    font-size: 18px;
+    border-bottom: dashed 1px #ccc;
+}
+#conteudo input, select, textarea {
+    font-family: "Trebuched MS", Arial, Verdana;
+    font-size: 12px;
+    padding: 5px;
+    border: solid 1px #aaa;
+    background-color: #ccc;
+}
+#conteudo input:hover {
+    background-color: #eee;
+}
+#conteudo textarea:hover {
+    background-color: #eee;
+}
+#copy {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+        padding-top: 20px;
+  font-size: 10px;
+  font-style: italic;
+  background-color: #79725a;
+  background-image: url('../../img/menu_sombra_baixo.png');
+  background-repeat: repeat-x;
+  background-position: 0px 0px;
+}
+
+#twocol {
+    width: 50%;
+    float: left;
+}
+#treecol {
+    width: 33%;
+    float: left;
+}
+#fivecol {
+    width: 20%;
+    float: left;
+}
+#fivecol input {
+    width: 90%;
+}
+
+.cabecalho_resultados_busca {
+  font-weight: bold;
+  text-align: center;
+        padding-top: 8px;
+  height: 22px;
+  border-bottom: solid 1px #aaa;
+  border-right: solid 1px #aaa;
+}
+.resultados_busca {
+  text-align: center;
+        padding-top: 8px;
+  height: 22px;
+  border-right: solid 1px #aaa;
+  border-bottom: dashed 1px #aaa;
+}
+.resultados_busca a {
+    font-weight: bold;
+}
+.resultados_busca a:hover {
+    text-decoration: none;
+}
+
+/* MÓDULO AGENDAMENTO DE CONSULTA */
+#conteudo #modulo #paciente, #profissional {
+    width: 300px;
+}
+#diadoagendamento {
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    border: dashed 1px #ccc;
+}
+
+
+/* CADASTRO DE PACIENTE */
+#formulariocadastropaciente #treecol label {
+  font-size: 10px;
+  color: #fff;
+}
+#formulariocadastropaciente #treecol #twocol label {
+  font-size: 10px;
+  color: #fff;
+}
+#formulariocadastropaciente input {
+  width: 95%;
+  margin-bottom: 10px;
+}
+#formulariocadastropaciente #obs {
+        width: 375px;
+        height: 35px;
+}
+
+/* COLUNAS */
+#col2 {
+  float: left;
+  width: 50%
+}
+#col3 label {
+  font-size: 10px;
+}
+#col3 span {
+  font-size: 20px;
+  font-weight: bold;
+}
+#col3 {
+  float: left;
+  width: 32%
+}
+#col6 {
+  float: left;
+  width: 16%
+}
+
+.cinzaClaro, .transp {
+	background-color: #eee;
+	border-right: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	margin: 1px;
+	text-align: center;
+	padding: 5px;
+	cursor: default;
+}
+.transp {
+	background: none;
+	cursor: pointer;
+}
+
+
+/* NOVO MENU DROP DOWN */
+#downlink {
+	font-family: Ubuntu, Arial, Verdana;
+	font-size: 12px;
+	text-shadow: 1px 1px 2px #000;
+}

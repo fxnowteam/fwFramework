@@ -1,0 +1,5 @@
+[02-Apr-2009 03:00:37] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/floriano/public_html/poiuasdf/backup.php on line 92
+[02-Apr-2009 03:00:37] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/floriano/public_html/poiuasdf/backup.php on line 114
+[22-Apr-2009 03:01:38] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/floriano/public_html/poiuasdf/backup.php on line 92
+[22-Apr-2009 03:01:38] PHP Warning:  mysql_free_result(): supplied argument is not a valid MySQL result resource in /home/floriano/public_html/poiuasdf/backup.php on line 114
+[11-May-2009 03:00:02] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/floriano/public_html/poiuasdf/backup.php on line 70
